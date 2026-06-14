@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h2>Dashboard</h2>
+    <p style="text-align: center; margin-bottom: 2rem;">Welcome, <strong>{{ username }}</strong>! You have successfully authenticated.</p>
+    <a href="/logout">
+        <button class="btn-primary" style="background-color: #ef4444;">Log Out</button>
+    </a>
+{% endblock %}
